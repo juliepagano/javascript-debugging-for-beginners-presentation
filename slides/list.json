@@ -1,4 +1,15 @@
 [
     "index.md",
-    "introduction.html"
+    "introduction.html",
+    "assumptions.html",
+    "hands-on.html",
+    "disclaimer.html",
+    "dune.html",
+    "alert.html",
+    "alert-code01.html",
+    "alert-debug.html",
+    "alert-too-many.html",
+    "alert-too-many-fix.html",
+    "alerts-past.html",
+    "alerts-string-eg.html"
 ]
