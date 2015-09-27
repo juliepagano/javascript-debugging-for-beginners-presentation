@@ -11,5 +11,10 @@
     "alert-too-many.html",
     "alert-too-many-fix.html",
     "alerts-past.html",
-    "alerts-string-eg.html"
+    "alerts-string-eg.html",
+    "alert-why.html",
+    "alert-bye.html",
+    "hello-dev-tools.html",
+    "chrome-developer-tools.html",
+    "dev-tools-open.html"
 ]
