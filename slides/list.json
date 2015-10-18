@@ -16,5 +16,18 @@
     "alert-bye.html",
     "hello-dev-tools.html",
     "chrome-developer-tools.html",
-    "dev-tools-open.html"
+    "dev-tools-open.html",
+    "console-intro.html",
+    "console-errors.html",
+    "console-command-line.html",
+    "console-command-line-examples-1.html",
+    "console-command-line-examples-2.html",
+    "console-helper-functions.html",
+    "console-page-libraries.html",
+    "console-variables.html",
+    "console-log-intro.html",
+    "console-log-explanation.html",
+    "console-log-nonbreaking.html",
+    "console-log-objects.html",
+    "console-log-more.html"
 ]
