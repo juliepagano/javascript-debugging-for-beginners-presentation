@@ -29,5 +29,19 @@
     "console-log-explanation.html",
     "console-log-nonbreaking.html",
     "console-log-objects.html",
-    "console-log-more.html"
+    "console-log-more.html",
+    "console-log-more.html",
+    "console-log-more-02.html",
+    "interactive-debugger-intro.html",
+    "interactive-debugger-intro-02.html",
+    "interactive-debugger-test-debug.html",
+    "interactive-debugger-more.html",
+    "libraries-and-minified-code-intro.html",
+    "minified-vs-dev.html",
+    "pretty-print-jquery.html",
+    "ajax-requests-intro.html",
+    "ajax-example.html",
+    "performance-intro.html",
+    "mobile-intro.html",
+    "questions.html"
 ]
