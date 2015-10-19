@@ -1,5 +1,5 @@
 [
-    "index.md",
+    "index.html",
     "introduction.html",
     "assumptions.html",
     "hands-on.html",
@@ -43,5 +43,6 @@
     "ajax-example.html",
     "performance-intro.html",
     "mobile-intro.html",
+    "mobile-01.html",
     "questions.html"
 ]
