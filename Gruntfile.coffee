@@ -31,7 +31,7 @@ module.exports = (grunt) ->
             jshint:
                 files: ['js/*.js']
                 tasks: ['jshint']
-        
+
             sass:
                 files: ['css/source/theme.scss']
                 tasks: ['sass']
@@ -41,7 +41,7 @@ module.exports = (grunt) ->
             theme:
                 files:
                     'css/theme.css': 'css/source/theme.scss'
-        
+
         connect:
 
             livereload:
@@ -91,7 +91,7 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-        
+
         buildcontrol:
 
             options:
@@ -103,7 +103,7 @@ module.exports = (grunt) ->
                 options:
                     remote: 'git@github.com:juliepagano/javascript-debugging-for-beginners-presentation.git'
                     branch: 'gh-pages'
-        
+
 
 
     # Load all grunt tasks.
@@ -141,19 +141,18 @@ module.exports = (grunt) ->
 
     grunt.registerTask 'dist',
         'Save presentation files to *dist* directory.', [
-            'test'
             'sass'
             'buildIndex'
             'copy'
         ]
 
-    
+
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-    
+
 
     # Define default task.
     grunt.registerTask 'default', [
