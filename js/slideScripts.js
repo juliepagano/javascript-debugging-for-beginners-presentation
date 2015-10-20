@@ -46,7 +46,7 @@ testAjax.onSuccess = function(data, textStatus, jqXHR) {
     var item = $('<li></li>').text(data.quotes[i]);
     list.append(item);
   }
-  $('#dune-quotes .container').append(list);
+  $('#dune-quotes .container').html(list);
 };
 
 testAjax.onError = function(jqXHR, textStatus, errorThrown) {
